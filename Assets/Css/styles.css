@@ -1,0 +1,20 @@
+body {
+  /* background-color: blueviolet; */
+}
+.hero-main {
+  background-color: aliceblue;
+}
+.hero-main-outer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+@import "tailwindcss";
+.card {
+  @apply shadow-violet-400 text-center
+   bg-white p-6 rounded-xl shadow-md hover:shadow-xl transform hover:-translate-y-1 transition-transform duration-300 hover:bg-white hover:shadow-gray-300;
+}
+
+.work {
+  @apply bg-white p-4 rounded-xl shadow-md hover:shadow-2xl transform hover:-translate-y-1 transition-transform duration-300 border-violet-600  hover:border-2 hover:border-t-amber-300 hover:border-r-amber-300;
+}

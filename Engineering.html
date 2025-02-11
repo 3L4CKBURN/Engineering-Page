@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assets/Css/styles.css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <script
+      src="https://kit.fontawesome.com/b8d916ff09.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Engineering Services</title>
+    <style>
+      .hero-header {
+        /* background: #cd04fa; */
+        color: white;
+        padding: 4rem 2rem;
+        text-align: center;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+      }
+      .hero-subtitle {
+        animation: fadeIn 2s ease-in-out;
+        font-size: 1.2rem;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="hero-header bg-violet-800">
+      <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white">
+        Innovative Engineering Solutions for a Better Tomorrow
+      </h1>
+      <p class="hero-subtitle mt-4 md:mt-6">
+        Transforming complex ideas into practical solutions with precision and
+        passion.
+      </p>
+    </header>
+
+    <main>
+      <!-- Services Section -->
+      <section class="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 gap-6 p-6">
+        <div class="card">
+          <img
+            class="w-20 sm:w-24 md:w-32 lg:w-40 h-auto mx-auto rounded-4xl"
+            src="Assets/Icons/engineer.gif"
+            alt="Engineering design representation"
+          />
+          <h2 class="text-lg font-semibold text-blue-700 mt-4">
+            Engineering Design
+          </h2>
+          <p class="text-gray-600">
+            High-precision CAD modeling, prototyping, and system design for
+            complex projects.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            class="w-20 sm:w-24 md:w-32 lg:w-40 h-auto mx-auto rounded-4xl"
+            src="Assets/Icons/projects.gif"
+            alt="Project management process image"
+          />
+          <h2 class="text-lg font-semibold text-blue-700 mt-4">
+            Project Management
+          </h2>
+          <p class="text-gray-600">
+            End-to-end project coordination for timely and efficient execution.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            class="w-20 sm:w-24 md:w-32 lg:w-40 h-auto mx-auto"
+            src="Assets/Icons/connection.gif"
+            alt="Automation system image"
+          />
+          <h2 class="text-lg font-semibold text-blue-700 mt-4">
+            Automation Solutions
+          </h2>
+          <p class="text-gray-600">
+            Tailored automation systems for increased productivity and reduced
+            operational costs.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            class="w-20 sm:w-24 md:w-32 lg:w-40 h-auto mx-auto"
+            src="Assets/Icons/consultation.gif"
+            alt="Technical consulting team image"
+          />
+          <h2 class="text-lg font-semibold text-blue-700 mt-4">
+            Consulting & Advisory
+          </h2>
+          <p class="text-gray-600">
+            Expert guidance to solve technical challenges and streamline
+            operations.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            class="w-20 sm:w-24 md:w-32 lg:w-40 h-auto mx-auto"
+            src="Assets/Icons/microscope.gif"
+            alt="Research and development lab image"
+          />
+          <h2 class="text-lg font-semibold text-blue-700 mt-4">
+            Research & Development
+          </h2>
+          <p class="text-gray-600">
+            Cutting-edge R&D to bring your ideas to life.
+          </p>
+        </div>
+      </section>
+
+      <!-- Work With Us Section -------------------------------------------------------------------------------->
+      <section class="text-center mt-8">
+        <h2 class="text-3xl font-extrabold text-blue-800 mb-6">
+          Why Work with Us?
+        </h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="work">
+            <h1 class="text-lg font-bold text-blue-600 mb-2">Expertise</h1>
+            <p class="text-gray-600">
+              Skilled engineers with cross-industry experience.
+            </p>
+          </div>
+          <div class="work">
+            <h1 class="text-lg font-bold text-blue-600 mb-2">
+              Tailored Solutions
+            </h1>
+            <p class="text-gray-600">
+              Customized strategies designed to fit your unique challenges.
+            </p>
+          </div>
+          <div class="work">
+            <h1 class="text-lg font-bold text-blue-600 mb-2">
+              Commitment to Quality
+            </h1>
+            <p class="text-gray-600">
+              Best-in-class services that prioritize excellence.
+            </p>
+          </div>
+          <div class="work">
+            <h1 class="text-lg font-bold text-blue-600 mb-2">
+              On-Time Delivery
+            </h1>
+            <p class="text-gray-600">
+              Reliable project timelines with efficient execution.
+            </p>
+          </div>
+        </div>
+        <div class="text-center mt-8 pb-3">
+          <button
+            class="px-6 py-2 bg-gradient-to-r bg-blue-500 text-white font-bold rounded-xl 0 hover:bg-blue-600 animate-pulse"
+          >
+            Contact Us Now
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- Footer Section -->
+    <footer class="bg-blue-800 text-white py-8">
+      <div
+        class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left"
+      >
+        <div>
+          <h3 class="text-lg font-bold mb-2">Contact Us</h3>
+          <p>Email: support@coronata.in</p>
+          <p>Phone: 123456789</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold mb-2">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Home</a></li>
+            <li><a href="#" class="hover:underline">Services</a></li>
+            <li><a href="#" class="hover:underline">About Us</a></li>
+            <li><a href="#" class="hover:underline">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold mb-2">Follow Us</h3>
+          <div class="flex justify-center md:justify-start space-x-4">
+            <a href="#" class="hover:text-gray-400"
+              ><i class="fab fa-facebook-f"></i> Facebook</a
+            >
+            <a href="#" class="hover:text-gray-400"
+              ><i class="fab fa-twitter"></i> Twitter</a
+            >
+            <a href="#" class="hover:text-gray-400"
+              ><i class="fab fa-linkedin-in"></i> LinkedIn</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-6 text-gray-300">
+        <p>&copy; Coronata Creations</p>
+      </div>
+    </footer>
+  </body>
+</html>
