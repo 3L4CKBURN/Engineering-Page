@@ -805,6 +805,9 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
+  .h-0 {
+    height: calc(var(--spacing) * 0);
+  }
   .h-auto {
     height: auto;
   }
@@ -828,6 +831,9 @@
   }
   .w-20 {
     width: calc(var(--spacing) * 20);
+  }
+  .w-545 {
+    width: calc(var(--spacing) * 545);
   }
   .w-screen {
     width: 100vw;
